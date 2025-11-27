@@ -1,0 +1,40 @@
+table Sort_org
+	lineageTag: 3db83a8b-c8d3-4d77-824b-2ac2fdf5cff3
+
+	column codeorg
+		lineageTag: a6c2ffff-15d2-4f34-ab57-770350d02c5c
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [codeorg]
+		sortByColumn: sort_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_id
+		formatString: 0
+		lineageTag: 8988234b-b9c0-4f7a-a4ae-4068bd321ce8
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [sort_id]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sort_org = calculated
+		mode: import
+		source = ```
+				
+				DATATABLE (  
+				    "codeorg", STRING,  
+				    "sort_id", INTEGER,  
+				    {  
+				        {"PS Finance", 1},  
+				        {"Finance-wide", 2},  
+				        {"HP-wide", 3},  
+				        {"External", 4},  
+				        {"Unmapped", 5}  
+				    }  
+				)  
+				```
+
+	annotation PBI_Id = 4908dc0760c646c3a915fc11c224efac
+

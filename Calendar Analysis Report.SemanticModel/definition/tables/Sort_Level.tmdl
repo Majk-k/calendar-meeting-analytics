@@ -1,0 +1,36 @@
+table Sort_Level
+	lineageTag: 05e19ef2-3165-4896-b8fe-5197edea3b31
+
+	column 'Highest Level'
+		dataType: string
+		lineageTag: 77bdb83c-b709-4587-b5b2-75d85dbebb58
+		summarizeBy: none
+		sourceColumn: Highest Level
+		sortByColumn: 'Sort Order'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sort Order'
+		dataType: int64
+		formatString: 0
+		lineageTag: 7b8a3f47-2707-4233-97e0-55ff4099bdc7
+		summarizeBy: none
+		sourceColumn: Sort Order
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sort_Level = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45Wcnb1V9JRMlSK1YlW8jEEMo0gTCMg0xjCNAYyTSBME4XEvBSFpNSc/HKgoClY0LWiJLUoLzEHKGAGFgjNy00sKEhNAQqYK8XGAgA=", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Highest Level" = _t, #"Sort Order" = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Highest Level", type text}, {"Sort Order", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

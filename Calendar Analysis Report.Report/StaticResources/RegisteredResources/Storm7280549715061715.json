@@ -1,0 +1,45 @@
+{
+  "name": "Storm",
+  "dataColors": [
+    "#0096D6",
+    "#0C4508",
+    "#549EF7",
+    "#40DEFA",
+    "#FF63BB",
+    "#FF84FF",
+    "#00D072",
+    "#231F20"
+  ],
+  "tableAccent": "#8BC7F7",
+  "maximum": "#40DEFA",
+  "center": "#0B31A5",
+  "minimum": "#4759F5",
+  "bad": "#FF3900",
+  "neutral": "#FCF54B",
+  "good": "#83F955",
+  "visualStyles": {
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

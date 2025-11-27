@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["fact_Calendar_data","Sort_size","Sort_Manager's_Category","Sort_Calculated_Category","Sort_Level"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table fact_Calendar_data
+ref table DateTableTemplate_aeba4202-5ba8-4fa7-8d13-85db462683c0
+ref table LocalDateTable_ca152873-31b0-4bd7-86eb-310a7a839b0b
+ref table Parameter
+ref table Sort_org
+ref table Sort_size
+ref table 'Sort_Manager''s_Category'
+ref table Sort_Calculated_Category
+ref table Sort_Level
+
+ref cultureInfo en-US
+

@@ -1,0 +1,234 @@
+table fact_Calendar_data
+	lineageTag: 8d0bc511-816a-420d-8495-f24bfa36d896
+
+	column Index
+		dataType: int64
+		formatString: 0
+		lineageTag: d8dad1e4-7d9a-4262-b10b-e467694335ab
+		summarizeBy: sum
+		sourceColumn: Index
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Manager''s category'
+		dataType: string
+		lineageTag: e37b3cec-eb1b-472d-86ed-5fedbabaab5e
+		summarizeBy: none
+		sourceColumn: Manager's category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Calendar month'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: ede334f4-b8b8-4ed0-a2d3-f626d7deef30
+		summarizeBy: none
+		sourceColumn: Calendar month
+
+		variation Variation
+			isDefault
+			relationship: 8552ed31-714c-4701-99af-708a873b2cbf
+			defaultHierarchy: LocalDateTable_ca152873-31b0-4bd7-86eb-310a7a839b0b.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Calendar quarter'
+		dataType: string
+		lineageTag: 0b54144e-5a48-4e1d-a5ba-0e2efb7d17b4
+		summarizeBy: none
+		sourceColumn: Calendar quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Meeting duration (min)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 64afc70e-e3a9-4ea8-8076-85220c5c2e63
+		summarizeBy: sum
+		sourceColumn: Meeting duration (min)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total participants wihtout Alok'
+		dataType: int64
+		formatString: 0
+		lineageTag: 06b944ea-bcc7-4188-b6de-996af7bc3d9e
+		summarizeBy: sum
+		sourceColumn: Total participants wihtout Alok
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Manager''s org count'
+		dataType: int64
+		formatString: 0
+		lineageTag: a6d7688b-29ba-4a30-8856-007fe1547cc7
+		summarizeBy: sum
+		sourceColumn: Manager's org count
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Non Fin count'
+		dataType: int64
+		formatString: 0
+		lineageTag: d2885840-891e-4b72-8c1d-e5aa2ee5649e
+		summarizeBy: sum
+		sourceColumn: Non Fin count
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Other Fin count'
+		dataType: int64
+		formatString: 0
+		lineageTag: f3511591-296d-4262-819d-2f4ba29c3e85
+		summarizeBy: sum
+		sourceColumn: Other Fin count
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Non HP count'
+		dataType: int64
+		formatString: 0
+		lineageTag: 6dae388d-b8c0-4131-9962-8993a7229c3d
+		summarizeBy: sum
+		sourceColumn: Non HP count
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Unmapped count'
+		dataType: int64
+		formatString: 0
+		lineageTag: ed3a2df1-3f3c-4527-9bfc-f865341a0d77
+		summarizeBy: sum
+		sourceColumn: Unmapped count
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total highest level'
+		dataType: string
+		lineageTag: e2c7c116-5499-4a8c-9772-e8476afdcb1f
+		summarizeBy: none
+		sourceColumn: Total highest level
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Manager''s org highest level'
+		dataType: string
+		lineageTag: 51962279-4ad3-4a8a-8e7f-26b9a98d4907
+		summarizeBy: none
+		sourceColumn: Manager's org highest level
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Non Fin highest level'
+		dataType: string
+		lineageTag: 1a22d070-325e-4c98-b2e6-33e4d87fd3a9
+		summarizeBy: none
+		sourceColumn: Non Fin highest level
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Other Fin highest level'
+		dataType: string
+		lineageTag: 1f4b7a64-1351-4d2c-b007-93088766cd94
+		summarizeBy: none
+		sourceColumn: Other Fin highest level
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Meeting size'
+		dataType: string
+		lineageTag: 6d035ecb-fc27-4daa-8ec0-2ef7809f1ac9
+		summarizeBy: none
+		sourceColumn: Meeting size
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Dominant group'
+		dataType: string
+		lineageTag: ae8ebee2-cb4a-420e-8c7e-9e447f37d745
+		summarizeBy: none
+		sourceColumn: Dominant group
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"fact_Calendar_data","TableItemName":"Exclude Unmapped","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column cluster_title
+		dataType: string
+		lineageTag: cbe3b722-0a0f-40b0-83fe-17a1ed466888
+		summarizeBy: none
+		sourceColumn: cluster_title
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Meeting duration (h)' = 'fact_Calendar_data'[Meeting duration (min)]/60
+		lineageTag: 48339721-098e-4d27-b0dc-0bfe91d370b0
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Exclude Unmapped' =
+			SWITCH(
+				TRUE,
+				ISBLANK('fact_Calendar_data'[Dominant group]),
+				"(Blank)",
+				'fact_Calendar_data'[Dominant group] IN {"External",
+					"Finance-wide",
+					"HP-wide",
+					"PS Finance"},
+				"Exclude Unmapped",
+				'fact_Calendar_data'[Dominant group]
+			)
+		lineageTag: 7fc0d59c-0870-4c90-be74-26ab380912b2
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "fact_Calendar_data"
+				          }
+				        },
+				        "Property": "Dominant group"
+				      }
+				    }
+				  ]
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"c","Entity":"fact_Calendar_data"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"c"}},"Property":"Dominant group"}}],"GroupItems":[{"DisplayName":"(Blank)","BlankDefaultPlaceholder":true},{"DisplayName":"Exclude Unmapped","Expression":{"In":{"Expressions":[{"Column":{"Expression":{"SourceRef":{"Source":"c"}},"Property":"Dominant group"}}],"Values":[[{"Literal":{"Value":"'External'"}}],[{"Literal":{"Value":"'Finance-wide'"}}],[{"Literal":{"Value":"'HP-wide'"}}],[{"Literal":{"Value":"'PS Finance'"}}]]}}}]}
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_Calendar_data = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(Web.Contents("https://hp.sharepoint.com/teams/WSSAnalytics/Shared%20Documents/DATA/Email%20Analysis%20Project/_Processed%20Data_/clustered_emails%20-%20after%20manual%20adj%20by%20MK_v5-Shimrit_presentation.xlsx"), null, true),
+				    Sheet1_Sheet = Source{[Item="Calendar Data",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Index", Int64.Type}, {"Meeting subject", type text}, {"Alok's category", type text}, {"Calendar month", type date}, {"Calendar quarter", type text}, {"Meeting duration (min)", Int64.Type}, {"Total participants wihtout Alok", Int64.Type}, {"Alok's org count", Int64.Type}, {"Non Fin count", Int64.Type}, {"Other Fin count", Int64.Type}, {"Non HP count", Int64.Type}, {"Unmapped count", Int64.Type}, {"Total highest level", type text}, {"Alok's org highest level", type text}, {"Non Fin highest level", type text}, {"Other Fin highest level", type text}, {"Meeting size", type text}, {"Dominant group", type text}, {"subject", type text}, {"tokens", type text}, {"cluster_title", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column22", "Meeting subject"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Removed Columns",{{"Alok's category", "Manager's category"}, {"Alok's org highest level", "Manager's org highest level"}}),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Renamed Columns",{"subject", "tokens", "Column24", "Column23"}),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Removed Columns1",{{"Alok's org count", "Manager's org count"}})
+				in
+				    #"Renamed Columns1"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,51 @@
+table Parameter
+	lineageTag: 137d7d80-094c-4925-b892-f95a59b125fb
+
+	column Parameter
+		lineageTag: 59fd8f86-19d1-49b9-bd8e-b3ebecd795e7
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Parameter Order'
+
+		relatedColumnDetails
+			groupByColumn: 'Parameter Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parameter Fields'
+		isHidden
+		lineageTag: f135c496-9978-43da-b774-b80c53afce6c
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Parameter Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Parameter Order'
+		isHidden
+		formatString: 0
+		lineageTag: 8dd70fd3-b9f6-400b-a8f8-b2aae889b655
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Parameter = calculated
+		mode: import
+		source =
+				{
+				    ("Meeting size", NAMEOF('Sort_size'[size]), 0),
+				    ("Calculated clusters", NAMEOF('fact_Calendar_data'[cluster_title]), 4),
+				    ("Manager's category", NAMEOF('fact_Calendar_data'[Manager's category]), 1),
+				    ("Invitees' org", NAMEOF('Sort_org'[codeorg]), 2),
+				    ("Invitees' level", NAMEOF('Sort_Level'[Highest Level]), 3)
+				}
+
+	annotation PBI_Id = 4ce506d6bd6a44cdb62c4b78e437dbc5
+

@@ -1,0 +1,3110 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "sheet_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sheet 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Sheet1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.index": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Index"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "index": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "directory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "guide": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "manifestation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.aloks_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Manager's category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alok's category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "alok's classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "alok's class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "alok's group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "alok's type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "alok's grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "alok's kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.calendar_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Calendar month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "calendar mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sheet_1.calendar_month.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "VariationSource": "Calendar month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar month date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "month date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sheet_1.calendar_month.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "VariationSource": "Calendar month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar month year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "calendar month yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "month yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "calendar mth year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "mth year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sheet_1.calendar_month.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "VariationSource": "Calendar month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar month quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "calendar month qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "month qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "calendar mth quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "mth quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sheet_1.calendar_month.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "VariationSource": "Calendar month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar month month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "calendar month mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "month mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "calendar mth month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "mth month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sheet_1.calendar_month.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "VariationSource": "Calendar month",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar month day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "calendar mth day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "mth day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sheet_1.calendar_quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Calendar quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendar quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "calendar qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.meeting_duration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Meeting duration (min)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meeting duration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "meeting duration (min)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "duration": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "meeting duration ( minimum )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "meeting length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "meeting extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "meeting interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "meeting period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "meeting spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "minute",
+			        "min"
+			      ]
+			    },
+			    "sheet_1.total_participants_wihtout_alok": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Total participants wihtout Alok"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total participants wihtout alok": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total participant wihtout alok": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "aggregate participant wihtout alok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall participant wihtout alok": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.aloks_org_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Manager's org count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alok's org count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "alok's org amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.non_fin_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Non Fin count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "non fin count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "non fin amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.other_fin_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Other Fin count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "other fin count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fin count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "other fin amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "fin amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.non_HP_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Non HP count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "non HP count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "non hp amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.unmapped_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Unmapped count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unmapped count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unmapped amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.total_highest_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Total highest level"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total highest level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total highest quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total highest threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "total highest amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total highest grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total highest point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total highest rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "total highest tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aggregate highest level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall highest level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.aloks_org_highest_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Manager's org highest level"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alok's org highest level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "alok's org highest quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "alok's org highest threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "alok's org highest amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "alok's org highest grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "alok's org highest point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "alok's org highest rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "alok's org highest tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.non_fin_highest_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Non Fin highest level"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "non fin highest level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "non fin highest quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "non fin highest threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "non fin highest amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "non fin highest grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "non fin highest point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "non fin highest rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "non fin highest tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.other_fin_highest_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Other Fin highest level"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "other fin highest level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "other fin highest quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "other fin highest threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "other fin highest amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "other fin highest grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "other fin highest point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "other fin highest rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "other fin highest tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.meeting_size": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Meeting size"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meeting size": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "size": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "meeting extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "meeting magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "meeting scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "meeting volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "meeting dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "meeting mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.dominant_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Dominant group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dominant group": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dominant category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dominant organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dominant bracket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dominant class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dominant crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "dominant team": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.cluster_title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "cluster_title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cluster title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cluster_title": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "title": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cluster designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "cluster name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cluster award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cluster call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cluster heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cluster label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "sheet_1.meeting_duration_h": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "fact_Calendar_data",
+			          "ConceptualProperty": "Meeting duration (h)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "meeting duration (h)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "meeting duration": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "parameter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parameter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parameter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "stricture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "limitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consideration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "limit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bound": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "factor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "issue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "parameter.parameter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parameter",
+			          "ConceptualProperty": "Parameter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parameter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "parameter name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "stricture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "limitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consideration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "limit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bound": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "factor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "issue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "parameter.parameter_field": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parameter",
+			          "ConceptualProperty": "Parameter Fields"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parameter field": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "field": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "parameter arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "parameter turf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "parameter ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "parameter pitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "parameter park": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "turf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "park": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "parameter.parameter_order": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Parameter",
+			          "ConceptualProperty": "Parameter Order"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "parameter order": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "parameter instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "parameter direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "parameter edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "parameter command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "parameter directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "parameter demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "parameter mandate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "parameter_is_named_parameter": {
+			      "Binding": {
+			        "ConceptualEntity": "Parameter"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "parameter": {
+			          "Target": {
+			            "Entity": "parameter"
+			          }
+			        },
+			        "parameter.parameter": {
+			          "Target": {
+			            "Entity": "parameter.parameter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "parameter"
+			            },
+			            "Name": {
+			              "Role": "parameter.parameter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parameters_are_names_IDs_of_parameters"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "parameter"
+			            },
+			            "Object": {
+			              "Role": "parameter.parameter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "parameters_have_parameters"
+			        }
+			      ]
+			    },
+			    "sheet_1_is_calendared_on_calendar_month": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.calendar_month": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "sheet_1.calendar_month"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "calendar": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "sheet_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "sheet_1_are_calendared_on_calendar_months"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_index": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.index": {
+			          "Target": {
+			            "Entity": "sheet_1.index"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.index"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_indices"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_meeting_subject": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.meeting_subject": {
+			          "Target": {
+			            "Entity": "sheet_1.meeting_subject"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.meeting_subject"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_meeting_subjects"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_aloks_category": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.aloks_category": {
+			          "Target": {
+			            "Entity": "sheet_1.aloks_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.aloks_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_aloks_category"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_calendar_month": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.calendar_month": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.calendar_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_calendar_months"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_calendar_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.calendar_quarter": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.calendar_quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_calendar_quarters"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_meeting_duration": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.meeting_duration": {
+			          "Target": {
+			            "Entity": "sheet_1.meeting_duration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.meeting_duration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_meeting_durations"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_total_participants_wihtout_alok": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.total_participants_wihtout_alok": {
+			          "Target": {
+			            "Entity": "sheet_1.total_participants_wihtout_alok"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.total_participants_wihtout_alok"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_total_participants_wihtout_aloks"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_aloks_org_count": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.aloks_org_count": {
+			          "Target": {
+			            "Entity": "sheet_1.aloks_org_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.aloks_org_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_aloks_org_count"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_non_fin_count": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.non_fin_count": {
+			          "Target": {
+			            "Entity": "sheet_1.non_fin_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.non_fin_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_non_fin_counts"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_other_fin_count": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.other_fin_count": {
+			          "Target": {
+			            "Entity": "sheet_1.other_fin_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.other_fin_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_other_fin_counts"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_non_HP_count": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.non_HP_count": {
+			          "Target": {
+			            "Entity": "sheet_1.non_HP_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.non_HP_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_non_HP_counts"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_unmapped_count": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.unmapped_count": {
+			          "Target": {
+			            "Entity": "sheet_1.unmapped_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.unmapped_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_unmapped_counts"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_total_highest_level": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.total_highest_level": {
+			          "Target": {
+			            "Entity": "sheet_1.total_highest_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.total_highest_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_total_highest_levels"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_aloks_org_highest_level": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.aloks_org_highest_level": {
+			          "Target": {
+			            "Entity": "sheet_1.aloks_org_highest_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.aloks_org_highest_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_aloks_org_highest_level"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_non_fin_highest_level": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.non_fin_highest_level": {
+			          "Target": {
+			            "Entity": "sheet_1.non_fin_highest_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.non_fin_highest_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_non_fin_highest_levels"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_other_fin_highest_level": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.other_fin_highest_level": {
+			          "Target": {
+			            "Entity": "sheet_1.other_fin_highest_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.other_fin_highest_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_other_fin_highest_levels"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_meeting_size": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.meeting_size": {
+			          "Target": {
+			            "Entity": "sheet_1.meeting_size"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.meeting_size"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_meeting_sizes"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_dominant_group": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.dominant_group": {
+			          "Target": {
+			            "Entity": "sheet_1.dominant_group"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.dominant_group"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_dominant_groups"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_subject": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.subject": {
+			          "Target": {
+			            "Entity": "sheet_1.subject"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.subject"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_subjects"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_token": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.token": {
+			          "Target": {
+			            "Entity": "sheet_1.token"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.token"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_tokens"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_cluster_title": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.cluster_title": {
+			          "Target": {
+			            "Entity": "sheet_1.cluster_title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.cluster_title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_cluster_titles"
+			        }
+			      ]
+			    },
+			    "sheet_1_has_meeting_duration_h": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1": {
+			          "Target": {
+			            "Entity": "sheet_1"
+			          }
+			        },
+			        "sheet_1.meeting_duration_h": {
+			          "Target": {
+			            "Entity": "sheet_1.meeting_duration_h"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.meeting_duration_h"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sheet_1_have_meeting_duration_h"
+			        }
+			      ]
+			    },
+			    "sheet_1_calendar_month_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1.calendar_month": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month"
+			          }
+			        },
+			        "sheet_1.calendar_month.date_hierarchy": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1.calendar_month"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.calendar_month.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_months_have_calendar_month_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "sheet_1_calendar_month_date_hierarchy_has_sheet_1_calendar_month_year": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1.calendar_month.date_hierarchy": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.date_hierarchy"
+			          }
+			        },
+			        "sheet_1.calendar_month.year": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1.calendar_month.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.calendar_month.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_month_date_hierarchies_have_calendar_month_years"
+			        }
+			      ]
+			    },
+			    "sheet_1_calendar_month_date_hierarchy_has_sheet_1_calendar_month_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1.calendar_month.date_hierarchy": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.date_hierarchy"
+			          }
+			        },
+			        "sheet_1.calendar_month.quarter": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1.calendar_month.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.calendar_month.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_month_date_hierarchies_have_calendar_month_quarters"
+			        }
+			      ]
+			    },
+			    "sheet_1_calendar_month_date_hierarchy_has_sheet_1_calendar_month_month": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1.calendar_month.date_hierarchy": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.date_hierarchy"
+			          }
+			        },
+			        "sheet_1.calendar_month.month": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1.calendar_month.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.calendar_month.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_month_date_hierarchies_have_calendar_month_months"
+			        }
+			      ]
+			    },
+			    "sheet_1_calendar_month_date_hierarchy_has_sheet_1_calendar_month_day": {
+			      "Binding": {
+			        "ConceptualEntity": "fact_Calendar_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1.calendar_month.date_hierarchy": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.date_hierarchy"
+			          }
+			        },
+			        "sheet_1.calendar_month.day": {
+			          "Target": {
+			            "Entity": "sheet_1.calendar_month.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1.calendar_month.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.calendar_month.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendar_month_date_hierarchies_have_calendar_month_days"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,36 @@
+table Sort_Calculated_Category
+	lineageTag: 2883664b-a1fa-4b3a-939d-986fc72249ac
+
+	column 'Calculated Category'
+		dataType: string
+		lineageTag: 63c4a6f1-71ef-4549-bbe2-6465deea41b2
+		summarizeBy: none
+		sourceColumn: Calculated Category
+		sortByColumn: 'Sort Order'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sort Order'
+		dataType: int64
+		formatString: 0
+		lineageTag: 12fedc29-0947-4751-8679-887f1ae21e5d
+		summarizeBy: none
+		sourceColumn: Sort Order
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sort_Calculated_Category = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("LY7LDsIgEEV/ZcK6xtS3W2tcaWzS7pouCB3pKAUC1O8XqLu558xMbtex0ujSs4KVrC861iKf4IEYSMtEN5k2H7IrhV9UEW0zeloPXA/QBMcDShJwJS9m78nodLjLWzfF/QhruMyDxBCHe1tHuV8kaa4FcQU1updxU0wY7SHbykxW0R8dM6qdeaMI6f1pKRFGdDGdWd//AA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Calculated Category" = _t, #"Sort Order" = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Calculated Category", type text}, {"Sort Order", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

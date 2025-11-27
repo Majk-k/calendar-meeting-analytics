@@ -1,0 +1,30 @@
+relationship 8552ed31-714c-4701-99af-708a873b2cbf
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fact_Calendar_data.'Calendar month'
+	toColumn: LocalDateTable_ca152873-31b0-4bd7-86eb-310a7a839b0b.Date
+
+relationship c732b141-4865-bd45-2309-67f4aef32707
+	crossFilteringBehavior: bothDirections
+	fromColumn: fact_Calendar_data.'Meeting size'
+	toColumn: Sort_size.size
+
+relationship 20ca6802-089f-b88c-74bc-d48ab9b55ec3
+	crossFilteringBehavior: bothDirections
+	fromColumn: fact_Calendar_data.'Dominant group'
+	toColumn: Sort_org.codeorg
+
+relationship AutoDetected_a79644c3-b375-4604-8c0c-49129788614c
+	crossFilteringBehavior: bothDirections
+	fromColumn: fact_Calendar_data.'Manager''s category'
+	toColumn: 'Sort_Manager''s_Category'.'Manager''s category'
+
+relationship cbfbdbcb-9222-8849-b3b8-e06f7b8d0b9f
+	crossFilteringBehavior: bothDirections
+	fromColumn: fact_Calendar_data.cluster_title
+	toColumn: Sort_Calculated_Category.'Calculated Category'
+
+relationship c82e74cb-c59b-f910-39bd-d93239314bca
+	crossFilteringBehavior: bothDirections
+	fromColumn: fact_Calendar_data.'Total highest level'
+	toColumn: Sort_Level.'Highest Level'
+

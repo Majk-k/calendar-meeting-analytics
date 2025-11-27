@@ -1,0 +1,10 @@
+    # Power BI PBIP project
+    *.abf
+    *.pbi
+    *.tmp
+    *.cache
+    .pbi/
+    **/.pbi/
+    **/*.lock.json
+    **/Backup/
+    **/Temp/

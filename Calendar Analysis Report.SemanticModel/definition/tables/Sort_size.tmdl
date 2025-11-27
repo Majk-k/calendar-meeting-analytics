@@ -1,0 +1,36 @@
+table Sort_size
+	lineageTag: 2f5a8100-36ca-49ae-b4bd-f72a07d49675
+
+	column size
+		dataType: string
+		lineageTag: c969b428-1bc1-4c1f-9c7f-158cf73abe3f
+		summarizeBy: none
+		sourceColumn: size
+		sortByColumn: size_ord
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column size_ord
+		dataType: int64
+		formatString: 0
+		lineageTag: 8740ea17-331f-4064-aed2-94c7673a9e86
+		summarizeBy: none
+		sourceColumn: size_ord
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sort_size = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WMlQoSC0qzs9T0lEyVIrViVYKzk3MyVHQMNI11QSKGYHFfFNTMktzFTTMdA0NQKLGYFGfxKL0VAUNQ0NtkJiJUmwsAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [size = _t, size_ord = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"size", type text}, {"size_ord", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

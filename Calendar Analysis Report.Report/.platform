@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Calendar Analysis Report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "609dc081-b5f0-43bb-95ea-f1078925da0a"
+  }
+}
